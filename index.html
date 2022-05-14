@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Know-How und Kapital für digitale Geschäftsmodelle - make.digital GmbH</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .header {
+            padding: 15px;
+            border-bottom: 1px solid #f4f4f4;
+        }
+
+        .header .logo {
+            display: block;
+            width: 250px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content .block {
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .content .block.light {
+            max-width: 1140px;
+            margin: 30px auto;
+        }
+
+        .content .block.dark {
+            background: rgb(243, 180, 62);
+            background: linear-gradient(-90deg, rgba(243, 180, 62, 1) 0%, rgba(189, 137, 36, 1) 100%);
+            color: #fff;
+        }
+
+        .content .intro {
+            display: flex;
+        }
+
+        .content .intro .side {
+            flex: 1;
+            margin: 0 30px;
+        }
+
+        .content .intro .photo {
+            width: 100%;
+        }
+
+        .content .intro .contact {
+            margin-top: 50px;
+        }
+
+        .content .intro .contact .social {
+            color: initial;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+        }
+
+        .content .intro .contact .social i {
+            font-size: 24pt;
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            background: #8d8d8d;
+            color: #fff;
+            text-align: center;
+            padding: 25px 100px;
+            display: flex;
+        }
+
+        .footer h2 {
+            font-size: 14pt;
+        }
+
+        .footer .col {
+            flex: 1;
+        }
+
+        .footer a {
+            color: #fff;
+        }
+
+        .end {
+            height: 20px;
+            background: #4b4b4b;
+        }
+
+        .icon-text-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .icon-text-boxes .box {
+            max-width: 350px;
+            margin: 30px;
+        }
+
+        .icon-text-boxes .box i {
+            font-size: 24pt;
+        }
+
+        .icon-text-boxes .box img {
+            max-width: 250px;
+            height: 75px;
+            object-fit: scale-down;
+        }
+
+        .icon-text-boxes .box p {
+            text-align: justify;
+        }
+
+        .halv-width {
+            max-width: 50%;
+            margin: 0 auto
+        }
+
+        .size-small {
+            font-size: 10pt;
+        }
+
+        .no-space {
+            padding: 0;
+            margin: 0;
+        }
+
+        .card {
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        @media only screen and (max-width: 920px) {
+
+            .header .logo {
+                margin: 0 auto;
+            }
+
+            .content {
+                width: 100%;
+            }
+
+            .content .intro {
+                flex-direction: column;
+            }
+
+            .footer {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="header">
+    <a href="/">
+        <img class="logo" src="img/logo-make-digital.webp" alt="make.digital Logo">
+    </a>
+</div>
+<div class="content">
+    <div class="intro block light">
+        <div style="margin: 50px 0" class="side">
+            <h1>Know-How und Kapital für digitale Geschäftsmodelle</h1>
+            <p style="text-align: justify">
+                make.digital investiert in Digitale Geschäftsmodelle auf Basis von Software-as-a-Service. Diese richten
+                sich an Unternehmen jeder Größe in Deutschland. Neben Kapital liegt der Fokus dabei auf technischer und
+                organisatorischer Beratung zur Umsetzung der komplexen Anforderungen, die heute an moderne Geschäftsmodelle
+                gestellt werden.
+            </p>
+
+            <div class="contact">
+                Kontakt:
+
+                <div style="display: flex; margin-top: 15px">
+                    <a class="social" target="_blank" href="https://www.linkedin.com/in/daniel-huhn/">
+                        <i class="fab fa-linkedin-in"></i>
+                        LinkedIn
+                    </a>
+                    <a class="social" target="_blank" href="https://www.xing.com/profile/Daniel_Huhn4/cv">
+                        <i class="fa-brands fa-xing"></i>
+                        Xing
+                    </a>
+                    <a class="social" target="_blank" href="https://mailhide.io/e/GStjUw1C"
+                       onclick="popup=window.open('https://mailhide.io/e/GStjUw1C','mailhidepopup','width=580,height=635'); return false;">
+                        <i class="fa fa-envelope"></i>
+                        E-Mail
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="side">
+            <img class="photo" src="img/daniel-huhn-make-digital.webp"
+                 alt="Foto von Daniel Huhn, Geschäftsführer make.digital GmbH">
+            <p class="size-small">Founder & Director: Daniel Huhn</p>
+        </div>
+    </div>
+
+    <div class="block dark">
+        <h2>Unserer Schwerpunkte und Werte</h2>
+
+        <div style="margin-top: 50px" class="icon-text-boxes">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>Entwicklung und Betrieb von Software</h3>
+                <p>Die Entwicklung und Betrieb von Geschäftskritischen Anwendungen gehört zu unserem Tagesgeschäft.
+                    Jeden Tag vertrauen tausende von Anwendern auf die Verfügbarkeit und Support für die für sie
+                    wichtiger Anwendungen. </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <h3>Kaufmännische- und BWL-Expertise</h3>
+                <p>Die Optimierung, Strukturierung und Digitalisierung von Kaufmännischen und Betriebswirtschaftlichen
+                    Prozessen gehört zu unseren absoluten Kernkompetenzen. Dies spiegelt sich auch in den Geschäftsmodelle
+                    wider, in die make.digital bisher investiert hat.</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud und Hybrid-Cloud-Transformation</h3>
+                <p>Wir glauben an eine Zukunft, in der zentrale, spezialisierte Anbieter die Bereitstellung und den
+                    stabilen Betrieb von Lösung verantworten und garantieren. Wir setzten dies in Form von Cloud und
+                    Hybrid-Cloud Modellen für unsere Kunden um.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-user-astronaut"></i>
+                <h3>Rekrutierung und Ausbildung von IT-Fachpersonal</h3>
+                <p>Für erfolgreiche Digitalisierungs-geschäftsmodelle ist gut ausgebildetes Fachpersonal sowie eine
+                    Arbeitskultur, die sich durch Konstruktivität und Zusammenarbeit auf Augenhöhe auszeichnet, die
+                    Grundlage. Wir unterstützen unsere Partner mit einer ganzheitlichen Personalstrategie.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-network-wired"></i>
+                <h3>Netzwerk und strategische Partnerschaften</h3>
+                <p>„Wenn du schnell gehen willst, dann gehe allein. Wenn du weit gehen willst, dann musst du mit anderen
+                    zusammen gehen.“. Wir richten unser Handeln nach diesem bekannten Afrikanischen Sprichwort aus. Für
+                    uns ist die vertrauensvolle und langfristige Zusammenarbeit mit unseren Partnern immer wichtiger als
+                    kurzfristige Interessen oder Profite.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-comments"></i>
+                <h3>Beratung, Coaching, Sparring – eine Lebensphilosophie</h3>
+                <p>Egal ob der tägliche Austausch zwischen Gleichgesinnten oder die vertrauensvolle und persönliche
+                    Zusammenarbeit mit Kunden und Partnern. Unsere Unternehmens-philosophie ist einfach: Wer sich jeden
+                    Tag weiter entwickelt und sein Wissen teilt, wird Großes erreichen. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="block light">
+        <h2>Investments und Geschäftsmodelle</h2>
+        <p>make.digital investiert strategisch in Geschäftsmodelle im Bereich der Digitalisierung. Dabei liegt der Fokus
+            derzeit auf Enterprise Content Management, eProcurement und FinTec.</p>
+
+        <div style="margin-top: 100px">
+            <h3>Aktuelle Investments und Geschäftsmodelle</h3>
+            <div class="icon-text-boxes">
+                <div class="box card">
+                    <a href="https://ecm.online/">
+                        <img src="img/logo-ecm-online.webp"
+                             alt="ecm.online Logo">
+                    </a>
+                    <h3>ecm.online</h3>
+                    <p>ecm.online entwickelt und betreibt Enterprise Content Management Systeme als Software as a
+                        Service. Als Full-Service Anbieter bieten wird Software und Dienstleistung aus einer Hand
+                        angeboten.</p>
+                    <div>
+                        <p class="no-space">Gründung: 2015</p>
+                    </div>
+                </div>
+                <div class="box card">
+                    <a href="https://liftbase.de/">
+                        <img src="img/logo-liftbase.webp"
+                             alt="ecm.online Logo">
+                    </a>
+                    <h3>liftbase</h3>
+                    <p>liftbase ist eine einfache e-Procurement Lösung für alltägliche Bestellungen. Unternehmen jeder
+                        Größe nutzen die Software um den täglichen Aufwand für Prüfung & Freigabe bei der Beschaffung zu
+                        optimieren.</p>
+                    <div>
+                        <p class="no-space">Gründung: 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 100px;">
+            <h3>Vergangene Investments und Geschäftsmodelle</h3>
+            <div class="icon-text-boxes">
+                <div class="box card">
+                    <a href="https://fino.group/">
+                        <img src="img/logo-fino.webp"
+                             alt="ecm.online Logo">
+                    </a>
+                    <h3>fino</h3>
+                    <p>fino entwickelt und vermarktet digitale Lösungen für Banken. Nach dem Erfolg des digitalen
+                        Kontowechselservice ist fino inzwischen neben FinTech auch im Bereich RegTech und DocTech sehr
+                        erfolgreich aktiv.</p>
+                    <div>
+                        <p class="no-space">Gründung: 2014</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block dark" style="margin-bottom: 0">
+        <h2>Interesse an einer Zusammenarbeit?</h2>
+        <p class="halv-width">Wir sind immer auf der Suche nach neuen
+            Geschäftsmodellen und Investitionsmöglichkeiten. Sollen Wir Interesse an einer Zusammenarbeit haben, nutzen
+            Sie gern die bekannten Kontaktmöglichkeiten für einen Austausch.</p>
+    </div>
+</div>
+<div class="footer">
+    <div class="col">
+        <h2>Impressum</h2>
+        <p>
+            make.digital GmbH <br>
+            Eifflerstraße 43 <br>
+            22769 Hamburg
+        </p>
+        <p class="no-space">Geschäftsführer: Daniel Huhn</p>
+        <p class="no-space">Umsatzsteuer ID: DE301525477</p>
+        <p class="no-space">Handelsregister: HRB 149919 Hamburg</p>
+    </div>
+</div>
+<div class="end"></div>
+</body>
+</html>
